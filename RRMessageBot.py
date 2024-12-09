@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 databaseGroupID = -1001657005370
 userDatabase = "usersDB.txt"
 blacklistDatabase = "blacklistDB.txt"
-Token = "YOUR_TOKEN_HERE"
+Token = "7822106146:AAF8W3xesleNYQSk7yoQ9b6G9xq_l5zrCUM"
 
 def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id, text="🇺🇸 Hi, If you don't want to receive messages from the  @RRMessage, send me your Rival Regions profile link :)\nExample Link:\nhttps://m.rivalregions.com/#slide/profile/0123456789\n\n🇹🇷 Merhaba @RRMessage sistemi tarafından mesaj almak istemiyorsan bana Rival Regions profil linkini gönder :)\nÖrnek Link:\nhttps://m.rivalregions.com/#slide/profile/0123456789")
